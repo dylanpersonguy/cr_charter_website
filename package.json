@@ -1,0 +1,16 @@
+{
+  "name": "costa-rica-fishing-charters",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static, SEO-optimized website for Costa Rica fishing charters.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node serve.mjs",
+    "dev": "node build.mjs && node serve.mjs --watch",
+    "brand": "python -P tools/make-brand.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

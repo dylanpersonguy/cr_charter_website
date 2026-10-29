@@ -1,0 +1,19 @@
+# Build output (regenerate with: npm run build)
+dist/
+
+# Dependencies / tooling
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment & secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
